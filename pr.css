@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero-section {
+    background:url('https://i.ibb.co/7G3f1Lm/46665167-aa28-41bd-91b7-346469aa4dd6.jpg');
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4rem; /* Adjust to accommodate fixed header */
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    background: #ff6600;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background: #ff4500;
+}
+
+.features-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background:url('https://i.ibb.co/Rh9Lqs5/printed-circuit-boards.webp');
+}
+
+.feature {
+    padding: 2rem;
+    margin: 1rem;
+    background: lavender;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.feature i {
+    font-size: 3rem;
+    color: #ff6600;
+    margin-bottom: 1rem;
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-contact{
+    text-align: center;
+    font-size: 1rem;
+    background: lavender;
+  
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+   
+}
